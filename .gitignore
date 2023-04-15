@@ -1,0 +1,13 @@
+# DEPENDENCIES
+node_modules
+
+# OUTPUT
+dist
+out
+*.log*
+
+# IDE
+.idea
+.vscode
+.fleet
+
