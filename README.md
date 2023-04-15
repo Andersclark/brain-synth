@@ -1,10 +1,12 @@
 # brain-synth
 
-An Electron application with Vue and TypeScript
+## About
 
-## Recommended IDE Setup
+A tool for connecting your brain to your music.
 
-- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+## Technologies
+
+An Electron application TypeScript, Vue and Vite.
 
 ## Project Setup
 
@@ -22,13 +24,17 @@ $ npm run dev
 
 ### Build
 
+#### For Windows
 ```bash
-# For windows
 $ npm run build:win
+```
 
-# For macOS
+#### For macOS
+```bash
 $ npm run build:mac
+```
 
-# For Linux
+#### For Linux
+```bash
 $ npm run build:linux
 ```
