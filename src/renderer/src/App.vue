@@ -1,12 +1,14 @@
 <script setup lang="ts">
+import MuseControls from "./components/MuseControls.vue"
+import { MuseEegReading } from "./services/useMuse"
+
+function handleMuseValue(value: MuseEegReading) {
+  console.log(value)
+}
 </script>
 
 <template>
-  <main>
-    <h1>Hello brains!</h1>
-  </main>
+  <div>
+    <MuseControls @value="handleMuseValue" />
+  </div>
 </template>
-
-<style>
-@import './main.css';
-</style>
